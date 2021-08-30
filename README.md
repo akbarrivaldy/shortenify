@@ -44,4 +44,14 @@ and input the Long URL to the body
       "longUrl": "https://longurlthatyouwanttoshorten.com"
   }
 ```
-and server will response with `JSON` with shortUrl as the shorten URL.
+and server will response with `JSON` with shortUrl as the shorten URL
+```json
+  {
+    "urlCode": "bE7m8q284",
+    "longUrl": "https://longurlthatyouwanttoshorten.com",
+    "shortUrl": "https://localhost:5000/bE7m8q284",
+    "date": "Mon Aug 30 2021 07:11:48 GMT+0000 (Coordinated Universal Time)",
+    "_id": "612c84b46f788e50b1b867aa",
+    "__v": 0
+  }
+```
