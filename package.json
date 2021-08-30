@@ -1,0 +1,19 @@
+{
+  "name": "shortener-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
